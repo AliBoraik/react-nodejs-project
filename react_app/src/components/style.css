@@ -1,0 +1,76 @@
+
+.wrapper {
+    text-align: center;
+}
+
+form {
+    box-sizing: border-box;
+    width: 750px;
+    display: inline-block;
+    padding: 4rem;
+    border-radius: 11rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 4px solid hsl(0, 0%, 90%);
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    /*width : 300px;*/
+    /*padding:5px 5px;*/
+    /*margin: 0;*/
+    /*box-sizing: border-box;*/
+}
+
+
+.error {
+    color: #d31919;
+}
+
+.button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: green;
+    margin-top: 15px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+/*.wrapper {*/
+/*    height: 90vh;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: rgb(255, 255, 255);*/
+/*}*/
+
+/*.form-wrapper {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 900px;*/
+/*    height: 650px;*/
+/*    padding: 20px 40px;*/
+/*    border-radius: 6px;*/
+/*    box-shadow: 0 8px 36px #222;*/
+/*    background-color: #fefefe;*/
+/*}*/
